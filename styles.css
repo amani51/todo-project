@@ -1,0 +1,119 @@
+*{
+    font-family: 'Square Peg', cursive;
+    font-weight: bold;
+    
+}
+body {
+  background: url(./images/yellow-list-top-view_23-2148475388.webp) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+header {
+    font-family: 'Square Peg', cursive;
+    font-weight: bold;
+    font-size: 45px;
+    position: fixed;
+    width:90%;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    }
+
+.header-logo {
+    width: 80px;
+    
+}
+.header-nav {
+    display: flex;
+    gap: 50px;
+  }
+
+.nav-item {
+    color: rgb(233,59,73);
+    position: relative;
+
+}
+.nav-item:hover::after {
+    width: 50%;
+  }
+  
+  .nav-item::after {
+    height: 2px;
+    width: 0%;
+    background: rgb(233,59,73);
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+  }
+
+table {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    padding:150px 200px 100px 70px;
+    gap: 100px;
+  }
+  
+  
+  th {
+    border: 1px solid rgba(19, 15, 15, 0);
+    text-align: left;
+    padding: 8px;
+    font-size: 50px;
+    color:rgb(233,59,73) ;
+    
+  }
+  td {
+    border: 1px solid rgba(19, 15, 15, 0);
+    color:rgb(161, 59, 67) ;
+    text-align: left;
+    padding: 8px;
+    font-size: 30px;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba(66, 180, 93,.3);
+  }
+  .about-app{
+    font-family: 'Square Peg', cursive;
+    color:rgb(161, 59, 67) ;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    padding:150px 200px 100px 70px;
+    gap: 100px;
+    font-size: 50px;
+
+  }
+
+
+  .copy-right{
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    gap: 100px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    padding:100px 200px 100px 600px;
+    gap: 100px;
+    font-family: 'Square Peg', cursive;
+    color:rgb(233,59,73) ;
+    bottom: 0;
+  }
